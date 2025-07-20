@@ -29,8 +29,8 @@ export default function Header() {
       </div>
       {isOpen && (
         <div className="md:hidden px-4 pb-4">
-          <Link href="/" className="block py-2 hover:text-blue-600 text-gray-600">Home</Link>
-          <Link href="/clinics" className="block py-2 hover:text-blue-600 text-gray-600">Clinics</Link>
+          <Link href="/" className="block py-2 hover:text-blue-600 text-gray-600">Anasayfa</Link>
+          <Link href="/clinics" className="block py-2 hover:text-blue-600 text-gray-600">Klinikler</Link>
         </div>
       )}
     </header>
